@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome | Life Style Store</title>
+    <title>Login</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="nav navbar-fixed-top navbar-inverse">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
@@ -20,7 +19,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="#" class="navbar-brand">LifeStyle Stores</a>
+                <a href="index.html" class="navbar-brand">LifeStyle Stores</a>
             </div>
             <div class="collapse navbar-collapse" id="#myNavBar">
                 <ul class="nav navbar-nav navbar-right">
@@ -40,14 +39,30 @@
             </div>
         </div>
     </nav>
-        <div id="banner_image">
-            <div class="container">
-                <div id="banner_content">
-                    <h1>We sell lifestyle</h1>
-                    <p>Flat 40% OFF</p>
-                    <a href="products.html">
-                        <button class="btn btn-danger btn-lg active">Shop Now</button>
-                    </a>
+        <div class="container panel-margin">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3>LOGIN</h3>
+                </div>
+                <div class="panel panel-default ">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><p class="text-warning">Login to make purchase</p></h3>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="password" id="password" class="form-control" placeholder="Password" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+
+                <div class="panel-footer">
+                    Don't have an account?<a href="signup.html"> Register</a> 
                 </div>
             </div>
         </div>

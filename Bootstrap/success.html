@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome | Life Style Store</title>
+    <title>Success Page</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="nav navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
@@ -20,45 +19,48 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="#" class="navbar-brand">LifeStyle Stores</a>
+                <a href="index.html" class="navbar-brand">LifeStyle Stores</a>
             </div>
+
             <div class="collapse navbar-collapse" id="#myNavBar">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="login.html">
-                            <span class="glyphicon glyphicon-log-in"></span>
-                            Login
+                        <a href="cart.html">
+                            <span class="glyphicon glyphicon-shopping-cart"></span>
+                            Cart
                         </a>
                     </li>
                     <li>
-                        <a href="signup.html">
+                        <a href="settings.html">
                             <span class="glyphicon glyphicon-user"></span>
-                            Sign Up
+                            Settings
+                        </a>
+                    </li>
+                    <li>
+                        <a href="logout.html">
+                            <span class="glyphicon glyphicon-log-out"></span>
+                            Logout
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-        <div id="banner_image">
-            <div class="container">
-                <div id="banner_content">
-                    <h1>We sell lifestyle</h1>
-                    <p>Flat 40% OFF</p>
-                    <a href="products.html">
-                        <button class="btn btn-danger btn-lg active">Shop Now</button>
-                    </a>
-                </div>
-            </div>
-        </div>
 
-        <footer>
-            <div class="container">
-                Copyright
-                <span class="glyphicon glyphicon-copyright-mark"></span>
-                Lifestyle Stores.
-                All Rights Reserved | Contact Us: +91 90000 00000
-            </div>
-        </footer>
+    <div class="container panel-margin">
+        <div class="alert alert-success">
+            Your order is confirmed. Thank you for shopping with us.
+            <a href="products.html">Click here</a> to purchase any other item.
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            Copyright
+            <span class="glyphicon glyphicon-copyright-mark"></span>
+            Lifestyle Stores.
+            All Rights Reserved | Contact Us: +91 90000 00000
+        </div>
+    </footer>
 </body>
 </html>
